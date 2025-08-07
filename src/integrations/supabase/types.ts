@@ -16,6 +16,7 @@ export type Database = {
     Tables: {
       notes: {
         Row: {
+          attachments: Json | null
           content: string | null
           created_at: string | null
           id: string
@@ -24,6 +25,7 @@ export type Database = {
           user_id: string
         }
         Insert: {
+          attachments?: Json | null
           content?: string | null
           created_at?: string | null
           id?: string
@@ -32,11 +34,39 @@ export type Database = {
           user_id: string
         }
         Update: {
+          attachments?: Json | null
           content?: string | null
           created_at?: string | null
           id?: string
           title?: string
           updated_at?: string | null
+          user_id?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          created_at: string
+          display_name: string | null
+          id: string
+          phone_number: string | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          display_name?: string | null
+          id?: string
+          phone_number?: string | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          display_name?: string | null
+          id?: string
+          phone_number?: string | null
+          updated_at?: string
           user_id?: string
         }
         Relationships: []
