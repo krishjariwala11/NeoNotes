@@ -105,7 +105,7 @@ const Landing = () => {
 
         {/* Footer */}
         <footer className="text-center mt-32 pt-12 border-t border-border-secondary">
-          <p className="text-terminal-green-dim">© 2025 NeoNote Systems. All Rights Reserved.</p>
+          <p className="text-terminal-green-dim">© 2025 Krish Jariwala. All Rights Reserved.</p>
           <p className="text-sm text-terminal-green-dim mt-2">
             Unauthorized access is strictly prohibited. Violators will be prosecuted to the fullest extent of intergalactic law.
           </p>
