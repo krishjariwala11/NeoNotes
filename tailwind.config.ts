@@ -18,12 +18,30 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				mono: ['JetBrains Mono', 'monospace'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				
+				// Cyberpunk color palette
+				'neon-green': 'hsl(var(--neon-green))',
+				'neon-cyan': 'hsl(var(--neon-cyan))',
+				'neon-blue': 'hsl(var(--neon-blue))',
+				'neon-purple': 'hsl(var(--neon-purple))',
+				'neon-pink': 'hsl(var(--neon-pink))',
+				'neon-orange': 'hsl(var(--neon-orange))',
+				'terminal-green': 'hsl(var(--terminal-green))',
+				'terminal-green-dim': 'hsl(var(--terminal-green-dim))',
+				'terminal-green-bright': 'hsl(var(--terminal-green-bright))',
+				'surface': 'hsl(var(--surface))',
+				'surface-elevated': 'hsl(var(--surface-elevated))',
+				'border-primary': 'hsl(var(--border-primary))',
+				'border-secondary': 'hsl(var(--border-secondary))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
