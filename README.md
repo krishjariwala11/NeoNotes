@@ -17,10 +17,10 @@ Designed with a sleek **cyberpunk aesthetic**, NeoNotes lets you capture ideas, 
 ---
 
 ## 🌐 Live Demo
-👉 [**Visit NeoNotes**](https://neonotes.netlify.app/)  
+👉 [**Visit NeoNotes**](https://neonoteskrish.netlify.app/)  
 
 Or check it out here:  
-[![Open in Browser](https://img.shields.io/badge/NeoNotes-Live_App-ff007f?style=for-the-badge&logo=google-chrome&logoColor=white)](https://neonotes.netlify.app/)
+[![Open in Browser](https://img.shields.io/badge/NeoNotes-Live_App-ff007f?style=for-the-badge&logo=google-chrome&logoColor=white)](https://neonoteskrish.netlify.app/)
 
 ---
 
